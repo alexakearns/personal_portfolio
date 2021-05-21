@@ -6,6 +6,9 @@
       <Nav />
       <About />
     </div>
+    <div>
+    <Projects />
+    </div>
   </div>
 </template>
 
@@ -13,6 +16,7 @@
 
 import Nav from './Nav';
 import About from './About';
+import Projects from './Projects.vue';
 
 export default {
   name: 'Home',
@@ -21,7 +25,8 @@ export default {
   },
   components: {
     Nav,
-    About
+    About,
+    Projects
   }
 }
 </script>
