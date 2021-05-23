@@ -9,7 +9,7 @@
 <script>
 import Project from './Project';
 // import axios from 'axios'
-import json from '../content/data.json'
+import json from '../content/ProjectDetails.json'
 
 export default {
   name: 'Projects',
