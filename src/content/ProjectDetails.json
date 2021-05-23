@@ -1,5 +1,5 @@
 {
-  "mission-ctrl": {
+  "missionCtrl": {
     "title": "Mission Ctrl",
     "description": "Arcade style game to learn VS Code Shortcuts.",
     "who": "Team project",
@@ -8,7 +8,7 @@
     "tools": ["VS Code", "Trello", "Miro"],
     "image": "../assets/Mission-ctrl.png"
   },
-  "bank-tech-test": {
+  "bankTechTest": {
     "title": "Tech Test - Bank",
     "description": "Well tested and structured code to emulate banking transactions via a REPL.",
     "who": "Individual project",
