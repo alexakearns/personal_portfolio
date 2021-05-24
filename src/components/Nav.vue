@@ -20,8 +20,10 @@ export default {
 
 <style>
 .nav-bar {
-  flex-wrap: wrap;
-  border: 5px solid blue;
-  width: 200px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  border: 2px solid blue;
+  width: 100%;
 }
 </style>

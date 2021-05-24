@@ -16,7 +16,8 @@ export default {
 
 <style>
 .button {
-  border: 5px solid green;
+  border: 1px solid black;
+  background: #FAF9F6;
   padding: 5px 8px;
   margin: 3px;
   border-radius: 8px;
