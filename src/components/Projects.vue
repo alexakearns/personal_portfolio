@@ -1,8 +1,8 @@
 <template>
   <div class="projects">
-    <Project />
-    <Project />
-    <Project />
+    <Project :projectInfo="data.missionCtrl"/>
+    <Project :projectInfo="data.bankTechTest"/>
+    <!-- <Project /> -->
   </div>
 </template>
 
@@ -23,7 +23,8 @@ export default {
   },
   mounted() {
     console.log(this.data)
-    console.log('first obj ', this.data.missionCtrl.tools[0]
+    console.log('first obj ', this.data.missionCtrl.tools
+
     )
   }
 }

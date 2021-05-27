@@ -15,6 +15,6 @@
     "why": "Week 10 Makers project interview prep tech test. Using TDD and clean, maintainable code",
     "tech": ["Ruby", "RSpec"],
     "tools": ["VS Code"],
-    "image": "../assets/Bank-test-png"
+    "image": "../assets/Bank-test.png"
   }
 }

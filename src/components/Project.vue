@@ -1,8 +1,10 @@
 <template>
   <div class="project">
     <p>Project</p>
-    <h3>{{data}}</h3>
-    <h1>you what</h1>
+    <h2>{{ projectInfo.title }}</h2>
+    <h3>{{ projectInfo.description }}</h3>
+    <img :src="projectInfo.image" />
+    <h4>{{ projectInfo.image }}</h4>
   </div>
 </template>
 
@@ -11,9 +13,14 @@
 export default {
   name: 'Project',
   props: {
-    data: Object,
+    projectInfo: Object,
+  },
+  // data() {
+  //   return {
+  //     projectInfo
+  //   }
+  // } 
 
-  }
 }
 </script>
 
