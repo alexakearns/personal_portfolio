@@ -1,7 +1,10 @@
 <template>
   <div class="projects">
-    <Project :projectInfo="data.missionCtrl"/>
-    <Project :projectInfo="data.bankTechTest"/>
+    <div v-for="project in projectsData" v-bind:key="project.title">
+      
+    <Project :projectInfo="project"/>
+    </div>
+    
     <!-- <Project /> -->
   </div>
 </template>
@@ -18,7 +21,7 @@ export default {
   },
   data() {
     return {
-      data: json,
+      projectsData: json,
     }
   },
   mounted() {

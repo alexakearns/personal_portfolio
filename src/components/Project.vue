@@ -3,8 +3,7 @@
     <p>Project</p>
     <h2>{{ projectInfo.title }}</h2>
     <h3>{{ projectInfo.description }}</h3>
-    <img :src="projectInfo.image" />
-    <h4>{{ projectInfo.image }}</h4>
+    <img class=project-image :src="projectInfo.image" />
   </div>
 </template>
 
@@ -28,5 +27,8 @@ export default {
 .project {
   border: 5px solid fuchsia;
   padding: 0 20px;
+}
+.project-image {
+  max-width: 300px;
 }
 </style>
