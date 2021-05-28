@@ -3,7 +3,7 @@
     <p>Project</p>
     <h2>{{ projectInfo.title }}</h2>
     <h3>{{ projectInfo.description }}</h3>
-    <img class=project-image :src="projectInfo.image" />
+    <img class=project-image :src="projectInfo.image" :alt="projectInfo.alt"/>
   </div>
 </template>
 

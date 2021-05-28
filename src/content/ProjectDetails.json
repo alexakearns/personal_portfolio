@@ -5,7 +5,8 @@
     "why": "Makers Academy final project, 2 weeks",
     "tech": ["React", "NodeJS", "Express", "MongoDB", "Jest", "Enzyme", "Mocha", "Chai"],
     "tools": ["VS Code", "Trello", "Miro"],
-    "image": "/assets/Mission-ctrl.png"
+    "image": "/assets/Mission-ctrl.png",
+    "alt": "Mission Ctrl scorecard"
   },
   {
     "title": "Tech Test - Bank",
@@ -14,7 +15,8 @@
     "why": "Week 10 Makers project interview prep tech test. Using TDD and clean, maintainable code",
     "tech": ["Ruby", "RSpec"],
     "tools": ["VS Code"],
-    "image": "/assets/Bank-test.png"
+    "image": "/assets/Bank-test.png",
+    "alt": "bank test REPL"
   },
   {
   "title": "Bla bla",
@@ -23,6 +25,7 @@
   "why": "Makers Academy final project, 2 weeks",
   "tech": ["React", "NodeJS", "Express", "MongoDB", "Jest", "Enzyme", "Mocha", "Chai"],
   "tools": ["VS Code", "Trello", "Miro"],
-  "image": "/assets/Mission-ctrl.png"
+  "image": "/assets/Mission-ctrl.png",
+  "alt": "Mission Ctrl scorecard"
   }
 ]
