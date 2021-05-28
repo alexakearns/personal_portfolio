@@ -1,25 +1,27 @@
 <template>
   <div>
-    <div>
-      <Nav />
+    <div class="site__strip">
+      <!-- <Nav /> -->
     </div>
     <Home />
   </div>
 </template>
 
 <script>
-import Nav from './Nav'
+// import Nav from './Nav'
 import Home from './Home'
 
 export default {
   name: 'Site',
   components: {
-    Nav,
+    // Nav,
     Home,
   }
 }
 </script>
 
 <style>
-
+.site__strip {
+  
+}
 </style>

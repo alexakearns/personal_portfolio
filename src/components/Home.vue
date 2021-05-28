@@ -1,9 +1,10 @@
 <template>
   <div class="home">
-    <h1>Alexa Kearns</h1>
+      <Nav />
+    <h1 class="home__name">Alexa Kearns</h1>
     <h4>{{info}}</h4>
-    <div class="content">
-      <!-- <Nav /> -->
+    <div class="home__content">
+      <About />
       <About />
     </div>
   </div>
@@ -11,7 +12,7 @@
 
 <script>
 
-// import Nav from './Nav';
+import Nav from './Nav';
 import About from './About';
 
 export default {
@@ -20,7 +21,7 @@ export default {
     info: String
   },
   components: {
-    // Nav,
+    Nav,
     About
   }
 }
@@ -30,11 +31,19 @@ export default {
 .home {
   /* border: 5px solid; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 30px ;
+  margin: 100px ;
   background: rgba(41, 245, 187, 1);
-  padding: 10px;
+  padding: 20px;
+  min-height: 500px;
 }
-.content {
+
+.home__name {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 9000;
+}
+
+.home__content {
   display: flex;
 }
 

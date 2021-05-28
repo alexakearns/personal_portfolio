@@ -23,7 +23,8 @@ export default {
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-around;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
+  margin: 10px;
 }
 </style>
