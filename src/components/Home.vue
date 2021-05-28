@@ -32,9 +32,11 @@ export default {
   /* border: 5px solid; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: 100px ;
-  background: rgba(41, 245, 187, 1);
+  /* background: rgba(41, 245, 187, 1); */
+  background: #150E58;
   padding: 20px;
   min-height: 500px;
+  z-index: 
 }
 
 .home__name {

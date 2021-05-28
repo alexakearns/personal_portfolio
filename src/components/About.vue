@@ -16,5 +16,6 @@ export default {
   /* border: 5px solid red; */
   width: 100%;
   padding: 25px;
+  color: #fff;
 }
 </style>

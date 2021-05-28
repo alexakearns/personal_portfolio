@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="site">
     <div class="site__strip">
       <!-- <Nav /> -->
     </div>
@@ -21,7 +21,17 @@ export default {
 </script>
 
 <style>
+/* .site {
+  position:
+} */
 .site__strip {
-  
+  background: rgba(41, 245, 187, 1);
+  position: absolute;
+  left:20%;
+  top: 0;
+
+  width: 400px;
+  height: 100%;
+  z-index: -1;
 }
 </style>
