@@ -2,7 +2,6 @@
   <div class="home">
       <Nav />
     <h1 class="home__name">Alexa Kearns</h1>
-    <h4>{{info}}</h4>
     <div class="home__content">
       <About />
       <About />
