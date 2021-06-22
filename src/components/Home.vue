@@ -35,13 +35,13 @@ export default {
   background: #150E58;
   padding: 20px;
   min-height: 500px;
-  z-index: 
 }
 
 .home__name {
   color: #fff;
   font-size: 70px;
   font-weight: 9000;
+  font-family: 'Just Me Down Here Again', cursive;
 }
 
 .home__content {
