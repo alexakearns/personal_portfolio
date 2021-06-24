@@ -27,10 +27,10 @@ export default {
 .site__strip {
   background: rgba(41, 245, 187, 1);
   position: absolute;
-  left:20%;
+  left:15%;
   top: 0;
 
-  width: 400px;
+  width: 30%;
   height: 100%;
   z-index: -1;
 }

@@ -28,20 +28,22 @@ export default {
 
 <style>
 .home {
-  /* border: 5px solid; */
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 100px ;
-  /* background: rgba(41, 245, 187, 1); */
   background: #150E58;
-  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  left: 10%;
   min-height: 500px;
+  padding: 20px;
+  position: absolute;
+  right: 10%;
+  top: 15%;
 }
 
 .home__name {
   color: #fff;
   font-size: 70px;
-  font-weight: 9000;
   font-family: 'Just Me Down Here Again', cursive;
+  font-weight: 9000;
 }
 
 .home__content {
