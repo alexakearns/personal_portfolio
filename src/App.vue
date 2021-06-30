@@ -1,6 +1,6 @@
 <template>
 
-  <Site info="hello there"/>
+  <Site/>
 </template>
 
 <script>
