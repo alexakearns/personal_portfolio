@@ -1,7 +1,6 @@
 <template>
   <div class="button">
-  <btn>{{ btn }}
-  </btn>
+  <button class="button-style" flat>{{ btn }}</button>
   </div>
 </template>
 
@@ -15,10 +14,16 @@ export default {
 </script>
 
 <style>
-.button {
-  border: 5px solid green;
-  padding: 5px 8px;
+.button-style {
+  border: 1px solid black;
+  background: #FAF9F6;
+  color: #1E3151;
+  padding: 6px 8px;
   margin: 3px;
-  border-radius: 8px;
+  border-radius: 15px;
+  width: 120px;
+}
+button:hover {
+  color: #fff;
 }
 </style>

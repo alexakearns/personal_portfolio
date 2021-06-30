@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  /* background: rgba(41, 245, 187, 0.2) ; */
+  /* background: #E6EBEF; */
+  z-index: -2
+}
+
+/* body {
+  padding: 20px;
+} */
