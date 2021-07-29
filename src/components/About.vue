@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <p>Technical Content Manager and Frontend Engineer at <a class="about__link" href=https://p.ota.to/>Potato</a></p>
+    <p>Technical Content Manager and Frontend Engineer at <a class="about__link" href=https://p.ota.to target="_blank">Potato</a></p>
     <p>Graduate from Makers Academy, immersive fullstack software development bootcamp.</p>
   </div>
 </template>
