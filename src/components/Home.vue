@@ -1,9 +1,8 @@
 <template>
-  <div class="home">
       <Nav />
+  <div class="home">
     <h1 class="home__name">Alexa Kearns</h1>
     <div class="home__content">
-      <About />
       <About />
     </div>
   </div>
@@ -42,7 +41,7 @@ export default {
 .home__name {
   color: #fff;
   font-size: 70px;
-  font-family: 'Just Me Down Here Again', cursive;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 9000;
 }
 

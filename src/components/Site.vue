@@ -21,10 +21,10 @@ export default {
 </script>
 
 <style>
-/* .site {
-  position:
-} */
-.site__strip {
+.site {
+  background: F5F5F5;
+}
+/* .site__strip {
   background: rgba(41, 245, 187, 1);
   position: absolute;
   left:15%;
@@ -33,5 +33,5 @@ export default {
   width: 30%;
   height: 100%;
   z-index: -1;
-}
+} */
 </style>
